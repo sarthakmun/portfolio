@@ -54,7 +54,6 @@ nav ul li a:hover{
     color: rgb(0, 119, 255);
 }
 .services{
-height: 200px;
 align-items: center;
 justify-content: center;
 background-color:  rgb(0, 119, 255);
@@ -64,7 +63,36 @@ padding: 5%;
     display: flex;
     color: white;
 }
-.services span{
-    display: flex;
+.portfolio{
+    background-color: black;
+    padding: 5%;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
-
+.portfolio h1{
+    color: rgb(0, 119, 255);
+}
+.portfolio span{
+    display: flex;
+    justify-content: center;
+}
+.portfolio span ul{
+    display: flex;
+    list-style: none;
+}
+.portfolio span ul li{
+    padding: 50px;  
+}
+.contact{
+    background-color: rgb(0, 119, 255);
+    padding: 5%;
+}
+.contact span a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+.contact span a:hover{
+    color: black;
+}
