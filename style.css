@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Hammersmith One', sans-serif;
+}
+nav{
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content: space-between;
+}
+.name{
+    color: white;
+    padding-left: 30px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(0, 119, 255)
+}
+nav ul li a:hover{
+    color: white;
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 60px;
+    background-color: black;
+}
+.bannertext{
+    flex: 1;
+    padding: 30px;
+    color: white;
+}
+.bannerimg{
+    flex: 1;
+    padding: 30px;
+}
+.bannerimg img{
+    width: 100%;
+}
+.bannertext h1{
+    color: rgb(0, 119, 255);
+}
+.services{
+height: 200px;
+align-items: center;
+justify-content: center;
+background-color:  rgb(0, 119, 255);
+padding: 5%;
+}
+.services h1{
+    display: flex;
+    color: white;
+}
+.services span{
+    display: flex;
+}
+
